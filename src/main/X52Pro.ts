@@ -14,7 +14,7 @@ import { LEDGroup } from "./LEDGroup";
 const VENDOR_ID = 0x6a3;
 
 /** The X52 Pro USB product ID. */
-const PRODUCT_ID = 0x762;
+// const PRODUCT_ID = 0x762;
 
 /** The USB request number. */
 const X52PRO_REQUEST = 0x91;
@@ -42,7 +42,7 @@ const REQUEST_SET_LED_BRIGHTNESS = 0xb2;
  */
 function isX52Pro(usbDevice: usb.Device): boolean {
     const dsc = usbDevice.deviceDescriptor;
-    return dsc.idVendor === VENDOR_ID && dsc.idProduct === PRODUCT_ID;
+    return dsc.idVendor === VENDOR_ID;
 }
 
 /**

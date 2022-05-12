@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/package",
-    "name": "@kayahr/x52pro",
-    "version": "1.2.0",
+    "name": "@ibakaidov/x52",
+    "version": "1.2.1",
     "description": "Library to control the LEDs and MFD of a Logitech/Saitek X52 Pro Joystick",
     "keywords": [
         "logitech",
@@ -9,13 +9,13 @@
         "x52pro"
     ],
     "license": "SEE LICENSE IN LICENSE.md",
-    "repository": "github:kayahr/x52pro",
+    "repository": "github:ibakaidov/x52",
     "publishConfig": {
         "access": "public"
     },
     "author": {
-        "name": "Klaus Reimer",
-        "email": "k@ailis.de"
+        "name": "ibakaidov",
+        "email": "ivan@aacidov.ru"
     },
     "scripts": {
         "clean": "rimraf lib",
@@ -35,9 +35,6 @@
         "src/main/"
     ],
     "main": "lib/main/index",
-    "funding": {
-        "url": "https://github.com/kayahr/x52pro?sponsor=1"
-    },
     "devDependencies": {
         "@kayahr/eslint-config": "2.3.1",
         "@types/node": "17.0.30",
